@@ -1,0 +1,17 @@
+# 打包产物
+*.exe
+build/
+dist/
+*.spec
+
+# 个人配置：框选的区域坐标、识别图案截图
+hud_config.json
+tmpl_*.png
+
+# 诊断输出
+hud_debug.csv
+hud_debug_frames/
+
+icon_preview.png
+__pycache__/
+*.pyc
